@@ -72,7 +72,8 @@ header ul li {
     line-height: 50px;
 }
 
-header ul li a {
+header ul li a,
+header h1 a {
     font-weight: bold;
     text-decoration: none;
     color: black;
