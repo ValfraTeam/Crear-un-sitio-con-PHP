@@ -56,10 +56,8 @@ footer {
 }
 
 #encabezado .contenedor {
-    background-image: url(../img/background.png);
-    background-position: center;
     height: 300px;
-    background-repeat: no-repeat;
+    background: url(../img/background.png) no-repeat center;
 }
 
 header ul {
@@ -81,4 +79,15 @@ header h1 a {
 
 header ul li a:hover {
     color: #55c5cb;
+}
+
+header a.activo {
+    background-color: #A6E5F9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+header a.activo:hover {
+    color: white;
+    background-color: #018BDC;
 }
