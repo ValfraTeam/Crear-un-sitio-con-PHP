@@ -1,0 +1,84 @@
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p,
+a {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section {
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+header,
+footer {
+    overflow: hidden;
+}
+
+.contenedor {
+    margin-right: auto;
+    margin-left: auto;
+    width: 960px;
+}
+
+.celda4,
+.celda6 {
+    float: left;
+    min-height: 1px;
+    margin-right: 10px;
+    clear: none;
+    display: inline;
+}
+
+.celda4 {
+    width: 310px;
+}
+
+.celda6 {
+    width: 470px;
+}
+
+.celda12 {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+#encabezado {
+    background-color: #55c5cb;
+    padding: 0;
+    border-top: solid #179399 2px;
+    border-bottom: solid #179399 2px;
+}
+
+#encabezado .contenedor {
+    background-image: url(../img/background.png);
+    background-position: center;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    padding: 10px;
+    line-height: 50px;
+}
+
+header ul li a,
+header h1 a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+header ul li a:hover {
+    color: #55c5cb;
+}
