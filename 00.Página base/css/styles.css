@@ -91,3 +91,38 @@ header a.activo:hover {
     color: white;
     background-color: #018BDC;
 }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+input[type="text"],
+input[type="submit"],
+textarea {
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+    width: 60%;
+}
+input[type="text"]:focus,
+input[type="text"].focus,
+textarea:focus {
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    border: 1px #dcdcdc solid;
+    background-color: #55c5cb;
+    width: 200px;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    border-color: #55c5cb;;
+    color: #333;;
+}
