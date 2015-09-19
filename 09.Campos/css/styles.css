@@ -126,3 +126,12 @@ input[type="submit"]:hover {
     border-color: #55c5cb;;
     color: #333;;
 }
+
+.mensajeError {
+    color: red;
+    background-color: #FBDFE4;
+    padding: 10px 0;
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto;
+}
